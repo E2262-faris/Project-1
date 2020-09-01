@@ -1,51 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-image: url(./images/res1.png);
-    background-size: cover;
+
+    background-image: url("./images/res1.png");
     color: white;
-    background-repeat: no-repeat;
-    justify-content: center;
-    
+
 }
 
-.firstsection{
-    background-color: rgba(0, 0, 0,0.4);
-    margin: 10px 15px;
+#container {
+
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 30px 100px;
+}
+
+#title {
+
     text-align: center;
+    font-size: 50px;
+    font-family: "Bowlby One SC",cursive;
+    padding-top:15px ;
+    letter-spacing: 5px;
 }
 
-.nil{
-
-    background-color: rgba(0, 0, 0,0.7);
-    margin: 20px 475px;
-    text-align: justify;
-    padding: 0.6cm;
-    
-    
-    
+span {
+    color: #ff0000;
 }
 
-#ab1{
-
-    font-variant-caps: small-caps;
+#description {
+    text-align: center;
+    font-size: 23px;
+    font-family: "Sorts Mill Goudy", sans-serif;
+    margin-bottom: 15px;
 }
 
-#ab2{
+#survey-form {
 
-    font-variant-caps: small-caps;
+    width: 500px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding-top: 10px; ;
+
+}
+#name,
+#number,
+#email,
+#dropdown {
+margin-top: 16px;
+height: 36px;
+width: 400px;
+padding: 10px;
+}
+
+#dropdown {
+    box-sizing: content-box;
+    resize: none;
+}
+
+.box{
+    margin-top:20px ;
+    margin-left: 40px;
+}
+
+.text-area {
+    margin-top: 10px;
+}
+
+#submit {
+    background-color: red;
+    font-size: larger;
+    height: 45px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 16px 0px 16px 150px;
+}
+
+#submit:hover {
+    background: white;
     color: red;
-}
-
-#bbk {
-    background-color:red;
-    color: white;
-    padding:15px;
-    text-align: center;
-    border-radius: 45px;
-    margin: 5px 2px;
-    margin-left: 80px;
-    width: 100px;
-
-
-   
+    cursor: pointer;
 
 }
